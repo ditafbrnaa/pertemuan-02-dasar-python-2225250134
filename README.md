@@ -23,6 +23,19 @@ Jalankan perintah berikut di terminal VS Code:
 python tugas/kalkulator_koordinat.py
 ```
 
+## Flowchart Program
+
+```mermaid
+graph TD
+    A([Start]) --> B[/Input x1, y1/]
+    B --> C[/Input x2, y2/]
+    C --> D["Hitung dx = x2 - x1<br>Hitung dy = y2 - y1"]
+    D --> E["Hitung Jarak = √(dx² + dy²)"]
+    E --> F["Hitung Midpoint:<br>xm = (x1 + x2) / 2<br>ym = (y1 + y2) / 2"]
+    F --> G[/Tampilkan dx, dy, Jarak, Midpoint/]
+    G --> H([End])
+```
+
 ## Hasil Pengujian (Test Case Wajib)
 | Kasus | Titik A | Titik B | Jarak Euclidean | Titik Tengah | Status |
 | :---: | :---: | :---: | :---: | :---: | :---: |
