@@ -17,8 +17,18 @@ Repositori ini berisi latihan dasar pemrograman Python (variabel, tipe data, inp
 * `latihan/04_nilai_akhir.py` : Latihan menghitung bobot nilai.
 * `tugas/kalkulator_koordinat.py` : Menghitung dx, dy, jarak Euclidean, dan titik tengah dua titik.
 
+
 ## Cara Menjalankan Program
-Jalankan perintah berikut di terminal VS Code:
+
+### 1. Menjalankan Berkas Latihan
+```bash
+python latihan/01_biodata.py
+python latihan/02_persegi_panjang.py
+python latihan/03_konversi_suhu.py
+python latihan/04_nilai_akhir.py
+```
+
+### 2. Menjalankan Tugas Utama (Kalkulator Koordinat)
 ```bash
 python tugas/kalkulator_koordinat.py
 ```
